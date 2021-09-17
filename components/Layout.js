@@ -9,6 +9,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta name="Description" content={description}></meta>
+        <meta name="google-site-verification" content="PutUnVt7kDaXhm8LCreHu3NdqQ8jxToCBbwf28ZuK8Y" />
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`
